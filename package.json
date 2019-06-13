@@ -1,0 +1,35 @@
+{
+  "name": "developershub-mern-stack-app",
+  "version": "1.0.0",
+  "description": "Social App for Developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shvmbisht/DevelopersHub-MERN-stack-App.git"
+  },
+  "author": "Shivam Bisht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shvmbisht/DevelopersHub-MERN-stack-App/issues"
+  },
+  "homepage": "https://github.com/shvmbisht/DevelopersHub-MERN-stack-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.15",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
