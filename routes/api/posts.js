@@ -127,7 +127,7 @@ router.post('/like/:id', passport.authenticate('jwt', { session: false}) ,(req, 
         })
   });
 
-  // @route   POST api/posts/comment/:id
+  // @route   POST api/posts/comment/:id/:comment_id
   // @desc     Add comment to post 
   // @access   private
 
@@ -151,7 +151,7 @@ router.post('/like/:id', passport.authenticate('jwt', { session: false}) ,(req, 
   });
 
 
-  // @route   DELETE api/posts/comment/:id/:comment_id
+  // @route   DELETE api/posts/comment/:id
   // @desc     Delete comment from post 
   // @access   private
 
